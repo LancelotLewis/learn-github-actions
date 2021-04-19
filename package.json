@@ -9,6 +9,7 @@
   "dependencies": {
     "@vueuse/core": "^4.8.1",
     "@vueuse/head": "^0.5.1",
+    "axios": "^0.21.1",
     "cypress": "^7.1.0",
     "nprogress": "^0.2.0",
     "prism-theme-vars": "^0.2.2",
