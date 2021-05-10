@@ -39,3 +39,8 @@ jobs:
         with:
           name: dist
           path: dist
+
+      - name: Release to Github
+        uses: blocklet/action-release-to-github@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
